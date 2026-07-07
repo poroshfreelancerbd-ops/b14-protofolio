@@ -1,0 +1,12 @@
+nav{background-color: aqua;
+display: flex;
+justify-content: space-between;
+
+}
+ul{
+display: flex;
+list-style: none;
+justify-content: space-between;
+gap: 25px;
+
+}
