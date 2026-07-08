@@ -1,12 +1,150 @@
-nav{background-color: aqua;
+nav{;
+    padding: 10px 0px;
+
+
 display: flex;
 justify-content: space-between;
+max-width: 1000px;
+margin: auto;
 
 }
+
 ul{
 display: flex;
 list-style: none;
 justify-content: space-between;
 gap: 25px;
+align-items: center;
+}
+*{ padding: 0;
+margin: 0;}
+
+header{background-color: aqu}
+ul li a{text-decoration: none;}
+
+.hero-parant{ display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+margin: auto;
+background-color: rgb(213, 162, 60);
+padding: 1px 120px;
+
+
+}
+
+
+.logo-r{color: brown;}
+/*commont styel*/
+.common-btn{background-color: rgb(199, 25, 42);
+    padding: 6px 2px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    color: rgb(221, 177, 187);
+    border: none;
+}
+.hero-left p{font-size: 20px;
+font-weight: 400;}
+
+.hero-left h2{font-size: 40px;
+font-weight: bold;
+font}
+.edite{
+background-color: orange;
+padding: 10px 10px;
+  border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+/*about us css*/
+
+
+.secound{
+background-color: rgb(175, 213, 213);
+max-width: 1000px;
+margin: 35px auto;
+text-align: center;
+border-radius: 20px;
+padding: 100px 10px;
+
+
+}
+.aboutus{ 
+display: flex;
+justify-content: space-between;
+gap: 8px;
+
+}
+.box{padding: 3px;
+    border-radius: 10px;
+    background-color: red;}
+.bold{ padding: 20px;
+;}
+
+
+.aboutus-us{ 
+display: flex;
+justify-content: space-between;
+gap: 8px;
+text-align: left ;
+border: 3px solid;
+padding: 8px;}
+
+.gap{text-align: center;}
+
+
+.aboutus-u{
+display: flex;
+justify-content: space-between;
+max-width: 1000px;
+margin: auto;
+text-align: left;
+gap: 100px;
+padding: 50px;
+
+
+}
+
+#hr{background-color: orange;
+border: 19px;
+}
+.four{text-align: center;
+
+
+}
+.gallry{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin-top: 34px;
+grid-row: 250px;
+gap: 13px;
+
+}
+.gallry img{height: 100%;
+width: 100%;
+
+}
+.foote{
+background-color: rgb(223, 221, 216);
+max-width: 1150px;
+margin: auto;
+text-align: center;
+padding: 150px;
+border: ;
+
+
+}
+.foot{
+display: flex;
+justify-content: space-between;
+padding: 1px;
+
+
+}
+.fot{
+border: 3px solid seagreen;
+
 
 }
